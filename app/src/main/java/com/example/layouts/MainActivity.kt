@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
             btnGridLayout.setOnClickListener {
                 startActivity(Intent(this@MainActivity, GridLayoutActivity::class.java))
             }
+
+            btnTableLayout.setOnClickListener {
+                startActivity(Intent(this@MainActivity, TableActivity::class.java))
+            }
         }
     }
 }
