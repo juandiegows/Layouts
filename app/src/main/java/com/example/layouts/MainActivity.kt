@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
             btnFrameLayout.setOnClickListener {
                 startActivity(Intent(this@MainActivity, FrameLayoutActivity::class.java))
             }
+            btnGridLayout.setOnClickListener {
+                startActivity(Intent(this@MainActivity, GridLayoutActivity::class.java))
+            }
         }
     }
 }
