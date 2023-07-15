@@ -26,6 +26,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ConstraintLayout" />
+
+            <Button
+                android:id="@+id/btnLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LinearLayout" />
+
+            <Button
+                android:id="@+id/btnRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RelativeLayout" />
+
+            <Button
+                android:id="@+id/btnFrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FrameLayout" />
+
+            <Button
+                android:id="@+id/btnGridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GridLayout" />
+
+            <Button
+                android:id="@+id/btnTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TableLayout" />
+
+            <Button
+                android:id="@+id/btnCoordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CoordinatorLayout" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
